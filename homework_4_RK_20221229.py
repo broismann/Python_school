@@ -5,7 +5,7 @@ while True:
         print('Sorry, wrong input:(')
     elif 0 < int(age) < 10:
         print(f'Hello, {name}, tomboy :)')
-    elif 10 < int(age) < 18:
+    elif 10 <= int(age) <= 18:
         print(f'How is it going, {name}?')
     elif 18 < int(age) < 100:
         print(f'How can I help you, {name}?')
