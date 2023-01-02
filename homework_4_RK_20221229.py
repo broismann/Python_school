@@ -10,7 +10,7 @@ while True:
     elif 18 < int(age) < 100:
         print(f'How can I help you, {name}?')
     else:
-        print(f"{name}, I gues you're lying or Tibetan monk")
+        print(f"{name}, I guess you're lying or Tibetan monk")
     stop_it = input(f'Hey {name}, do you want to exit? (Y/Д): ')
     if stop_it.upper() in ('Y', 'Д'):
         break
