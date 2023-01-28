@@ -12,7 +12,7 @@ class Auto:
     mark = 's4'
     weight = 3000
 
-    def __int__(self, brand, age, mark):
+    def __int__(self, brand, age, mark, color = None, weight = None):
         self.brand = brand
         self.age = age
         self.mark = mark
