@@ -12,10 +12,12 @@ class Auto:
     mark = 's4'
     weight = 3000
 
-    def __int__(self, brand, age, mark, color = None, weight = None):
+    def __int__(self, brand, age, mark, color=None, weight=None):
         self.brand = brand
         self.age = age
         self.mark = mark
+        self.color = color
+        self.weight = weight
 
     def move(self):
         print('Move!')
