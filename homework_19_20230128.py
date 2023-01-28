@@ -8,7 +8,7 @@ with open('witcher.json') as file:
 
 print(loaded_data)
 
-fields_name = ['ID', 'Name', 'Age', 'Cell']
+fields_name = ['ID', 'Name', 'Age', 'Cellphone']
 
 with open('witcher.csv', mode='w', encoding='utf-8') as new_file:
     file_writer = csv.writer(new_file, delimiter=',')
