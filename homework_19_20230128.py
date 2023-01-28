@@ -11,7 +11,7 @@ print(loaded_data)
 fields_name = ['ID', 'Name', 'Age', 'Cell']
 
 with open('witcher.csv', mode='w', encoding='utf-8') as new_file:
-    file_writer = csv.writer(new_file)
+    file_writer = csv.writer(new_file, delimiter=',')
     file_writer.writerow(fields_name)
     for number, (key, value) in enumerate(loaded_data.items()):
         cell = ['068000000', '095111111', '066222222', '050333333', '093444444', '063555555', '073666666']
