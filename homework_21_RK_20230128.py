@@ -12,7 +12,7 @@ class Auto:
     mark = 's4'
     weight = 3000
 
-    def __int__(self, brand='Audi', age=3, mark='s4'):
+    def __int__(self, brand, age, mark):
         self.brand = brand
         self.age = age
         self.mark = mark
@@ -25,4 +25,3 @@ class Auto:
 
     def birthday(self):
         self.age += 1
-
