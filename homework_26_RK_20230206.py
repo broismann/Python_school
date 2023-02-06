@@ -64,6 +64,8 @@ class MyCalc():
             res = a ** b
         except NegativeExponentError as err:
             print(err)
+        except Exception as err:
+            print(f'SOMETHING WRONG - {err}!')
         return res
 
 
